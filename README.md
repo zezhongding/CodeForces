@@ -1,5 +1,5 @@
 # CodeForces Solutions
-*When you are tired of scientific research, come and study programming problems.*
+*When you are tired of scientific research, come and study programming problems. --Lumiere*
 
 This repository is used to record and share solutions to various coding problems from CodeForces. Each solution is organized by problem number and includes a detailed explanation of the approach and code implementation.
 
