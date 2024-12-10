@@ -10,7 +10,7 @@ int main(){
         int n;
         cin >> n;
         int ans = 1;
-        for (int i = 1; i <= n; i = 2 * i + 2, ans++){
+        for (int i = 1; ; i = 2 * i + 2, ans++){
             if(i >= n){
                 if (i - n == 1) {
                     ans = 2 * ans - 2;
