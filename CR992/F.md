@@ -15,4 +15,4 @@ Current total time $O(abck)$: iterated over $abc$ vector triplets, calculated N,
 
 Let's speed up the solution. Let's calculate $G = gcd(d_1, d_2, \cdot, d_k)$. Since all $d_i$ are divisivle by $N$, then $G$ is also divisible by $N$. There are no more different $N$ than the number of divisors of $abc$. Let's calculate the number of triplets that give each value of $N$, and at the end we will calculate the multimal coefficient for all identical value of $N$ at once.
 
-The total time is $O(abclogC$
+The total time is $O(abclogC + d(abc)k$, where $d(x)$ is the number of divisors of $x$.
